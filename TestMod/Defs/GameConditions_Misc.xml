@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GameConditionDef>
+    <defName>ZombieCondition</defName>
+    <conditionClass>ZombieMod.Events.GameCondition_Zombie</conditionClass>
+    <label>Zombie</label>
+    <endMessage>End cond</endMessage>
+    <canBePermanent>true</canBePermanent>
+  </GameConditionDef>
+
+</Defs>

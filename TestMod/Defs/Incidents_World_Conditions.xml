@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <IncidentDef>
+    <defName>ZombieCondition</defName>
+    <label>Zombie Condition</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>World</li>
+    </targetTags>
+    <workerClass>IncidentWorker_MakeGameCondition</workerClass>
+    <gameCondition>ZombieCondition</gameCondition>
+    <letterLabel>Zombie</letterLabel>
+    <letterDef>NegativeEvent</letterDef>
+    <baseChance>1.5</baseChance>
+    <minRefireDays>15</minRefireDays>
+    <durationDays>0.75~1.25</durationDays>
+  </IncidentDef>
+
+</Defs>
